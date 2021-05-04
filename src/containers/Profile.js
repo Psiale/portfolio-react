@@ -15,13 +15,13 @@ const Profile = ({handleOnClick}) => (
      </div>
    </div>
    <div>
-    <a href="#">
-    <i></i>
+    <a href="https://www.linkedin.com/in/alexis-sanchez-dev/">
+    <FontAwesomeIcon icon={['fab', 'linkedin']} />
     </a>
-    <a href="#">
-      <i></i></a>
-    <a href="#">
-     <i></i>
+    <a href="https://github.com/Psiale">
+      <FontAwesomeIcon icon={['fab', 'github']} /></a>
+    <a href="https://angel.co/u/alexis-sanchez-10">
+     <FontAwesomeIcon icon={['fab', 'angellist']} />
     </a></div>
   </div>      
 );
