@@ -1,0 +1,16 @@
+-- Do basic 2 grid layout
+-- Profile:
+    Pic
+    Name
+    Role
+    Email -> popup email form
+    Social Networks -> open new window
+    Absolute labels container with mobile and web labels
+        --Label: Title and handle on click as props
+
+-- Projects: profiles as props, props passed when click on labels
+    Project: props[title, images, details, array of technologies]
+    Title
+    Container with Desktop - Mobile image
+    onHover: Details screen
+    Technologies component with array of techs as prop
