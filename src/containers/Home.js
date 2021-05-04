@@ -4,6 +4,7 @@ import Profile from './Profile';
 import Projects from './Projects';
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
+import projects from '../constants';
 
 library.add(fab);
 
@@ -11,7 +12,7 @@ const Home = () => (
     
   <div className={styles.mainContainer}>
     <Profile />
-    <Projects />
+    <Projects projects={projects} />
   </div>
 
 );
