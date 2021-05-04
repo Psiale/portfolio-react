@@ -39,71 +39,104 @@ const projects = {
         repository: "https://github.com/Psiale/onStock-frontend",
       },
     },
-    // {
-    //   title: "",
-    //   images: {
-    //     desktop: "",
-    //     mobile: "",
-    //   },
-    //   details: "",
-    //   technologies: [],
-    //   urls: {
-    //     demo: "",
-    //     repository: "",
-    //   },
-    // },
-    // {
-    //   title: "",
-    //   images: {
-    //     desktop: "",
-    //     mobile: "",
-    //   },
-    //   details: "",
-    //   technologies: [],
-    //   urls: {
-    //     demo: "",
-    //     repository: "",
-    //   },
-    // },
-    // {
-    //   title: "",
-    //   images: {
-    //     desktop: "",
-    //     mobile: "",
-    //   },
-    //   details: "",
-    //   technologies: [],
-    //   urls: {
-    //     demo: "",
-    //     repository: "",
-    //   },
-    // },
-    // {
-    //   title: "",
-    //   images: {
-    //     desktop: "",
-    //     mobile: "",
-    //   },
-    //   details: "",
-    //   technologies: [],
-    //   urls: {
-    //     demo: "",
-    //     repository: "",
-    //   },
-    // },
-    // {
-    //   title: "",
-    //   images: {
-    //     desktop: "",
-    //     mobile: "",
-    //   },
-    //   details: "",
-    //   technologies: [],
-    //   urls: {
-    //     demo: "",
-    //     repository: "",
-    //   },
-    // },
+    {
+      title: "Beer Catalogue",
+      images: {
+        desktop: beerDesktop,
+        mobile: beerMobile,
+      },
+      details: "some Details",
+      technologies: [        {
+        title: "React & Redux",
+      },
+      {
+        title: "Redux-Thunk",
+      },
+      {
+        title: "CSS Modules",
+      },
+      {
+        title: "API Fetching",
+      },],
+      urls: {
+        demo: 'https://beer-catalogue.netlify.app',
+        repository: 'https://github.com/Psiale/beer-react-redux',
+      },
+    },
+    {
+      title: "PhoneOff",
+      images: {
+        desktop: phoneoffDesktop,
+        mobile: phoneoffMobile,
+      },
+      details: "some details",
+      technologies: [{
+        title: "Ruby On Rails",
+      },
+      {
+        title: "ERB",
+      },
+      {
+        title: "Bulma",
+      },
+      {
+        title: "Rspec",
+      },],
+      urls: {
+        demo: "https://warm-wave-61802.herokuapp.com/records",
+        repository: "https://github.com/Psiale/phone-off/",
+      },
+    },
+    {
+      title: "Private Events",
+      images: {
+        desktop: privateDesktop,
+        mobile: privateMobile,
+      },
+      details: "some details",
+      technologies: [{
+        title: "Ruby On Rails",
+      },
+      {
+        title: "ERB",
+      },
+      {
+        title: "Bulma",
+      },
+      {
+        title: "Rspec",
+      },],
+      urls: {
+        demo: "https://guarded-dusk-24319.herokuapp.com",
+        repository: "https://github.com/Psiale/private-events",
+      },
+    },
+    {
+      title: "",
+      images: {
+        desktop: "",
+        mobile: "",
+      },
+      details: "",
+      technologies: [],
+      urls: {
+        demo: "",
+        repository: "",
+      },
+    },
+    {
+      title: "",
+      images: {
+        desktop: "",
+        mobile: "",
+      },
+      details: "",
+      technologies: [],
+      urls: {
+        demo: "",
+        repository: "",
+      },
+    },
   ],
   mobile: [
     {

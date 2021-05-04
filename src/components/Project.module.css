@@ -12,18 +12,18 @@
   justify-content: center;
   width: 100%;
   height: 70%;
-}
-
-.desktopImg {
-  width: 80%;
-  height: 100%;
   position: relative;
 }
 
+.desktopImg {
+  width: 55%;
+  height: 100%;
+}
+
 .mobileImg {
-  width: 50%;
+  width: 30%;
   position: absolute;
-  top: 157px;
+  top: 74px;
   right: 0;
 }
 
@@ -35,4 +35,10 @@
 
 .technologiesContainer > p {
   font-size: 15px;
+}
+
+.callToActionContainer {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
