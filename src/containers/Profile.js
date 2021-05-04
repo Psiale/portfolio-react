@@ -1,10 +1,28 @@
 import React from 'react';
 import styles from './Profile.module.css'
+import ProfilePic from '../img/i-pic.jpeg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Profile = () => (
+const Profile = ({handleOnClick}) => (
 
   <div className={styles.mainContainer}>
-    Hello from Profile
+   <div className={styles.profileMainContainer}>
+     <img src={ProfilePic} alt="Alexis Sanchez"/>
+     <div className={styles.profileInfoContainer}>
+       <p>Alexis Sanchez</p>
+       <p>Fullstack Developer</p>
+       <p onClick={handleOnClick}>psialedev@gmail.com</p>
+     </div>
+   </div>
+   <div>
+    <a href="#">
+    <i></i>
+    </a>
+    <a href="#">
+      <i></i></a>
+    <a href="#">
+     <i></i>
+    </a></div>
   </div>      
 );
 
