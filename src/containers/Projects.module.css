@@ -1,5 +1,15 @@
 .mainContainer {
+    position: relative;
     width: 75%;
     height: 100%;
     background-color: #D6BCFA;
+}
+
+.labelContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
 }

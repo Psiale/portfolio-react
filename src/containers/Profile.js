@@ -13,7 +13,7 @@ const Profile = ({handleOnClick}) => (
        <p onClick={handleOnClick}>psialedev@gmail.com</p>
    <div className={styles.socialMediaContainer}>
     <a href="https://www.linkedin.com/in/alexis-sanchez-dev/">
-    <FontAwesomeIcon icon={['fab', 'linkedin']} />
+    <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
     </a>
     <a href="https://github.com/Psiale">
       <FontAwesomeIcon icon={['fab', 'github']} /></a>
