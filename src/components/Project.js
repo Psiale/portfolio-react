@@ -7,7 +7,7 @@ const Project = ({title, desktopImg, mobileImg, details, technologies, urls}) =>
         <p>{ title }</p>
         <div className={styles.projectContainer}>
           <div className={styles.imagesContainer}>
-            <img src={desktopImg} alt="desktop project"/><img src={mobileImg} alt=" mobile project"/>
+            <img className={styles.desktopImg} src={desktopImg} alt="desktop project"/><img className={styles.mobileImg} src={mobileImg} alt=" mobile project"/>
           </div>
           <div className={styles.technologiesContainer}>
             {technologies.map(technologie => (<> <p>{technologie.title}</p> </>))}
