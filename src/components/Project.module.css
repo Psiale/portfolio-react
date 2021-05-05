@@ -23,8 +23,8 @@
 .mobileImg {
   width: 30%;
   position: absolute;
-  top: 74px;
-  right: 0;
+  top: 30%;
+  left: 57%;
 }
 
 .technologiesContainer {
