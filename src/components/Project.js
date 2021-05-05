@@ -10,7 +10,7 @@ const Project = ({title, desktopImg, mobileImg, details, technologies, urls}) =>
             <img className={styles.desktopImg} src={desktopImg} alt="desktop project"/><img className={styles.mobileImg} src={mobileImg} alt=" mobile project"/>
           </div>
           <div className={styles.technologiesContainer}>
-            {technologies.map(technologie => (<> <p>{technologie.title}</p> </>))}
+            {technologies.map(technology => (<> <p>{technology.title}</p> </>))}
           </div>
         </div>
         <div className={styles.callToActionContainer}>
