@@ -10,22 +10,25 @@ library.add(fab);
 
 const Home = () => {
   const [currProjects, setCurrProjects] = useState(projects.web);
-  const [labelTitle, setLabelTitle] = useState('mobile');
+  const [labelTitle, setLabelTitle] = useState('Mobile');
+  const [mobile, setMobile] = useState(false)
 
   const handleLabelOnClick = () => {
     if (currProjects === projects.web) {
       setCurrProjects(projects.mobile)
-      setLabelTitle('web');
+      setLabelTitle('Web');
+      setMobile(true)
     } else {
       setCurrProjects(projects.web)
-      setLabelTitle('mobile')
+      setLabelTitle('Mobile')
+      setMobile(false)
     }
   }
   return (
     
     <div className={styles.mainContainer}>
-      <Profile handleLabelOnClick={handleLabelOnClick} labelTitle={labelTitle} />
-      <Projects projects={currProjects} />
+      <Profile handleLabelOnClick={handleLabelOnClick} labelTitle={labelTitle} isMobile={mobile} />
+      <Projects projects={currProjects} isMobile={mobile} />
     </div>
   
   );

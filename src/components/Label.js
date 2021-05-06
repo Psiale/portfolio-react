@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from './Label.module.css'
 
 const Label = ({ title, handleOnClick }) =>(
     <>
-      <button style={{transform: 'rotate(90deg)', marginBottom: '40px'}} onClick={handleOnClick}>{title}</button>
+    {(title === 'Mobile') ? <button className={styles.buttonWeb} onClick={handleOnClick}>{title}</button> : <button className={styles.buttonMobile} onClick={handleOnClick}>{title}</button>}
     </>
   );
 

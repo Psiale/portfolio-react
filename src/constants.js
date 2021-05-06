@@ -6,14 +6,14 @@ import phoneoffDesktop from './img/phoneoff-desktop.png'
 import phoneoffMobile from './img/phoneoff-mobile.png'
 import privateDesktop from './img/private-desktop.png'
 import privateMobile from './img/private-mobile.png'
-import restaurantDesktop from './img/restaurant-desktop.png'
-import restaurantMobile from './img/restaurant-mobile.png'
 import tictactoeDesktop from './img/tictactoe-desktop.png'
 import tictactoeMobile from './img/tictactoe-mobile.png'
+import rpgDesktop from './img/rpg-desktop.png'
+import cryptoGif from './img/crypto.gif'
 
 const projects = {
   web: [
-    {
+    {   light:true,
       title: "OnStock",
       images: {
         desktop: onstockDesktop,
@@ -63,28 +63,27 @@ const projects = {
         repository: 'https://github.com/Psiale/beer-react-redux',
       },
     },
-    {
-      title: "PhoneOff",
+    { light:true,
+      title: "Js TicTacToe",
       images: {
-        desktop: phoneoffDesktop,
-        mobile: phoneoffMobile,
+        desktop: tictactoeDesktop,
+        mobile: tictactoeMobile,
       },
       details: "some details",
-      technologies: [{
-        title: "Ruby On Rails",
-      },
-      {
-        title: "ERB",
-      },
-      {
-        title: "Bulma",
-      },
-      {
-        title: "Rspec",
-      },],
+      technologies: [
+        {
+          title: "Vanilla JS",
+        },
+        {
+          title: "Sass/Scss",
+        },
+        {
+          title: "DOM Manipulation",
+        }
+      ],
       urls: {
-        demo: "https://warm-wave-61802.herokuapp.com/records",
-        repository: "https://github.com/Psiale/phone-off/",
+        demo: "https://got-tictactoe.netlify.app",
+        repository: "https://github.com/Psiale/Javascript-Tic-Tac-Toe",
       },
     },
     {
@@ -111,45 +110,55 @@ const projects = {
         repository: "https://github.com/Psiale/private-events",
       },
     },
-    {
-      title: "",
+    { light:true,
+      title: "RPG Game",
       images: {
-        desktop: "",
-        mobile: "",
+        desktop: rpgDesktop,
       },
-      details: "",
-      technologies: [],
+      details: "some details",
+      technologies: [{title: "JavaScript"}, {title: "Phaser 3"}, {title: "Tilemaps"}],
       urls: {
-        demo: "",
-        repository: "",
+        demo: "https://psiale.github.io/rpg-game/",
+        repository: "https://github.com/Psiale/rpg-game",
       },
     },
     {
-      title: "",
+      title: "PhoneOff",
       images: {
-        desktop: "",
-        mobile: "",
+        desktop: phoneoffDesktop,
+        mobile: phoneoffMobile,
       },
-      details: "",
-      technologies: [],
+      details: "some details",
+      technologies: [{
+        title: "Ruby On Rails",
+      },
+      {
+        title: "Active Storage",
+      },
+      {
+        title: "Bulma",
+      },
+      {
+        title: "Rspec",
+      },],
       urls: {
-        demo: "",
-        repository: "",
+        demo: "https://warm-wave-61802.herokuapp.com/records",
+        repository: "https://github.com/Psiale/phone-off/",
       },
     },
   ],
   mobile: [
-    {
-      title: "",
+    
+    {   light: true,
+      title: "Crypto",
       images: {
-        desktop: "",
-        mobile: "",
+        desktop: cryptoGif,
       },
-      details: "",
-      technologies: [],
+      details: "some details",
+      technologies: [{title: 'Flutter'}, {title: 'iOs/Android'}, {title: 'API Fetching'}],
       urls: {
-        demo: "",
-        repository: "",
+        repository: "https://github.com/Psiale/bitcoinTickerFlutter/tree/feature/dynamicBuilding",
+        isMobile: true,
       },
     },
     {
@@ -161,8 +170,23 @@ const projects = {
       details: "",
       technologies: [],
       urls: {
-        demo: "",
+        
         repository: "",
+        isMobile: true,
+      },
+    },
+    { light: true,
+      title: "",
+      images: {
+        desktop: "",
+        mobile: "",
+      },
+      details: "",
+      technologies: [],
+      urls: {
+        
+        repository: "",
+        isMobile: true,
       },
     },
     {
@@ -174,46 +198,7 @@ const projects = {
       details: "",
       technologies: [],
       urls: {
-        demo: "",
-        repository: "",
-      },
-    },
-    {
-      title: "",
-      images: {
-        desktop: "",
-        mobile: "",
-      },
-      details: "",
-      technologies: [],
-      urls: {
-        demo: "",
-        repository: "",
-      },
-    },
-    {
-      title: "",
-      images: {
-        desktop: "",
-        mobile: "",
-      },
-      details: "",
-      technologies: [],
-      urls: {
-        demo: "",
-        repository: "",
-      },
-    },
-    {
-      title: "",
-      images: {
-        desktop: "",
-        mobile: "",
-      },
-      details: "",
-      technologies: [],
-      urls: {
-        demo: "",
+        isMobile: true,
         repository: "",
       },
     },

@@ -5,16 +5,22 @@ const Project = ({title, desktopImg, mobileImg, details, technologies, urls}) =>
     return (
       <>
         <p>{ title }</p>
-        <div className={styles.projectContainer}>
           <div className={styles.imagesContainer}>
-            <img className={styles.desktopImg} src={desktopImg} alt="desktop project"/><img className={styles.mobileImg} src={mobileImg} alt=" mobile project"/>
-          </div>
-          <div className={styles.technologiesContainer}>
-            {technologies.map(technology => (<> <p>{technology.title}</p> </>))}
-          </div>
+           {(urls.isMobile) ? <img
+           style={{
+              maxWidth: '200px', 
+              minWidth: 'unset',
+              maxHeight: 'unset',
+              minHeight: 'unset',
+              width: '50%',
+              height: '100%'}} src={desktopImg} alt="desktop project"/> : <img className={styles.desktopImg} src={desktopImg} alt="desktop project"/> } {(mobileImg !== undefined) ? <img className={styles.mobileImg} src={mobileImg} alt=" mobile project"/> : null}
+            <ul className={styles.technologiesContainer}>
+            {technologies.map(technology => (<> <li>{technology.title}</li> </>))}
+          </ul>
         </div>
         <div className={styles.callToActionContainer}>
-          <a href={urls.demo}>TRY ME</a><a href={urls.repository}> REPOSITORY</a>
+          {(urls.demo) ? <a href={urls.demo}>TRY ME </a> : null }
+          <a href={urls.repository}> REPOSITORY</a>
         </div>
       </>
     );
