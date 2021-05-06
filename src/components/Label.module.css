@@ -1,0 +1,28 @@
+button {
+    transform: rotate(270deg);
+    padding: 16px 32px;
+    background-color: transparent;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    color: white;
+}
+
+.buttonWeb {
+    border: 2px solid var(--purple);
+    color: var(--purple);
+}
+
+.buttonWeb:hover {
+    background-color: var(--purple);
+}
+
+.buttonMobile {
+    border: 2px solid var(--blue);
+    color: var(--blue);
+}
+
+.buttonMobile:hover {
+  background-color: var(--blue);
+}
