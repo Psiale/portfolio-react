@@ -7,7 +7,8 @@ const Projects = ({ projects}) => {
     <div className={styles.mainContainer}>
       {projects.map(project => (
         <div style={{
-          backgroundColor: project.urls.isMobile ? (project.light ? '#2795ED' : '#08088d' ) : project.light ? '#d6bcfa' : '#6b46c1'
+          color: project.urls.isMobile ? (project.light ? '#040448' : 'white' ) : project.light ? '#44337a' : 'white'
+          ,backgroundColor: project.urls.isMobile ? (project.light ? '#616cff' : '#08088d' ) : project.light ? '#d6bcfa' : '#9F7AEA'
         }} className={styles.projectMainContainer}>
           <Project
             
