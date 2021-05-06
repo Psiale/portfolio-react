@@ -10,6 +10,8 @@ import tictactoeDesktop from './img/tictactoe-desktop.png'
 import tictactoeMobile from './img/tictactoe-mobile.png'
 import rpgDesktop from './img/rpg-desktop.png'
 import cryptoGif from './img/crypto.gif'
+import climaGif from './img/clima.gif'
+import bmiGif from './img/bmi.gif'
 
 const projects = {
   web: [
@@ -149,57 +151,43 @@ const projects = {
   ],
   mobile: [
     
-    {   light: true,
-      title: "Crypto",
+    { light: true,
+      title: "BMI Calculator",
+      
       images: {
-        desktop: cryptoGif,
+        desktop: bmiGif,
       },
       details: "some details",
-      technologies: [{title: 'Flutter'}, {title: 'iOs/Android'}, {title: 'API Fetching'}],
+      technologies: [{title: 'Custom Theme'}, {title: 'Routing'}, {title: 'Screenshot / Share option'} ],
       urls: {
-        repository: "https://github.com/Psiale/bitcoinTickerFlutter/tree/feature/dynamicBuilding",
+        
+        repository: "https://github.com/Psiale/bmi-calculator-flutter/tree/feature/modal",
         isMobile: true,
       },
     },
-    {
-      title: "",
+    { title: "Crypto",
+      unset: true,
       images: {
-        desktop: "",
-        mobile: "",
-      },
-      details: "",
-      technologies: [],
-      urls: {
-        
-        repository: "",
-        isMobile: true,
-      },
+      desktop: cryptoGif,
+    },
+    details: "some details",
+    technologies: [{title: 'Flutter'}, {title: 'iOs/Android'}, {title: 'API Fetching'}],
+    urls: {
+      repository: "https://github.com/Psiale/bitcoinTickerFlutter/tree/develop/BitcoinTicker",
+      isMobile: true,
+    },
     },
     { light: true,
-      title: "",
+      title: "Weather APP",
       images: {
-        desktop: "",
-        mobile: "",
+        desktop: climaGif,
       },
-      details: "",
-      technologies: [],
+      details: "some details",
+      technologies: [{title: 'API Fetching'}, {title: 'iOS / Android permissions'}, {title: 'Loading Animation'} ],
       urls: {
         
-        repository: "",
+        repository: "https://github.com/Psiale/Clima-Flutter/tree/feature/customSpinner",
         isMobile: true,
-      },
-    },
-    {
-      title: "",
-      images: {
-        desktop: "",
-        mobile: "",
-      },
-      details: "",
-      technologies: [],
-      urls: {
-        isMobile: true,
-        repository: "",
       },
     },
   ],

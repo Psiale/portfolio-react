@@ -11,7 +11,7 @@ const Projects = ({ projects}) => {
           ,backgroundColor: project.urls.isMobile ? (project.light ? '#616cff' : '#08088d' ) : project.light ? '#d6bcfa' : '#9F7AEA'
         }} className={styles.projectMainContainer}>
           <Project
-            
+            light={project.light ? true : false}
             title={project.title} 
             desktopImg={project.images.desktop} 
             mobileImg={project.images.mobile} 

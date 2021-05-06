@@ -53,3 +53,59 @@
   font-size: 28px;
   justify-content: space-evenly;
 }
+.coolLink {
+  text-decoration: none;
+  color:white
+}
+
+.coolLink::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  background:white;
+  transition: width 0.1s;
+}
+
+.coolLink:hover::after {
+  width: 100%;
+  transition: width 0.5s;
+}
+
+.coolLinkWeb {
+  text-decoration: none;
+  color:var(--purple)
+}
+
+.coolLinkWeb::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  background:var(--purple);
+  transition: width 0.1s;
+}
+
+.coolLinkWeb:hover::after {
+  width: 100%;
+  transition: width 0.5s;
+}
+.coolLinkMobile {
+  text-decoration: none;
+  color:var( --light-blue);
+}
+
+
+.coolLinkMobile::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  background:var(--light-blue);
+  transition: width 0.1s;
+}
+
+.coolLinkMobile:hover::after {
+  width: 100%;
+  transition: width 0.5s;
+}
