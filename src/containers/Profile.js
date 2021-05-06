@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Profile.module.css";
 import ProfilePic from "../img/i-pic.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Label from "../components/Label";
 import Switch from "react-switch";
 
 const Profile = ({ handleOnClick, handleLabelOnClick, labelTitle, isMobile }) => (
@@ -28,7 +27,10 @@ const Profile = ({ handleOnClick, handleLabelOnClick, labelTitle, isMobile }) =>
         <Switch
           onChange={handleLabelOnClick}
           offColor="#44337a" 
-          onColor="#040448" 
+          onColor="#040448"
+          offHandleColor="#d6bcfa"
+          onHandleColor="#616cff"
+          activeBoxShadow="0 0 2px 3px #4a5568"
           checked={isMobile}
           uncheckedIcon={false}
           checkedIcon={false} />
