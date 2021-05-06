@@ -29,8 +29,6 @@ const Home = () => {
     <div className={styles.mainContainer}>
       <Profile handleLabelOnClick={handleLabelOnClick} labelTitle={labelTitle} isMobile={mobile} />
       <Projects projects={currProjects} isMobile={mobile} />
-      <input className={(mobile ? styles.mobile : styles.web )}  type="text"/>
-      <span className={(mobile ? styles.mobile : styles.web )} ></span>
     </div>
   
   );
