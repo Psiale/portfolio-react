@@ -17,6 +17,24 @@
   margin-bottom: 20px;
 }
 
+
+.imagesContainer:hover > .showOnHover {
+  display: flex;
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.showOnHover {
+  display: none;
+  z-index: 10;
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  color: white;
+}
+
 .desktopImg {
   min-width: 324px;
   min-height: 324px;

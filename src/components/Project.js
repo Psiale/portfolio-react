@@ -1,11 +1,13 @@
 import React from 'react';
 import styles from './Project.module.css';
+import Animista, { AnimistaTypes } from "react-animista";
 
 const Project = ({ light, title, desktopImg, mobileImg, details, technologies, urls}) => {
     return (
       <>
         <p style={{textAlign: urls.isMobile ? 'center' : 'initial'}}>{ title }</p>
-          <div style={{flexDirection: urls.isMobile ? 'row' : 'column', justifyContent: urls.isMobile ? 'center' : 'center' }} className={styles.imagesContainer}>
+          <div style={{flexDirection: urls.isMobile ? 'row' : 'column',justifyContent: urls.isMobile ? 'center' : 'center' }} className={styles.imagesContainer}>
+            <Animista style={{backgroundColor: urls.isMobile ? 'rgba(0, 3, 27, 0.8)' : 'rgba(22, 0, 20, 0.8)' }} type={AnimistaTypes.SCALE_UP_CENTER} className={styles.showOnHover}><p>{details}</p></Animista>
            {(urls.isMobile) ? <img
            style={{
               maxWidth: '200px', 
