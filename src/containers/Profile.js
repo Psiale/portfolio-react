@@ -10,8 +10,8 @@ const Profile = ({ handleOnClick, handleLabelOnClick, labelTitle, isMobile }) =>
     </div>
     <img src={ProfilePic} alt="Alexis Sanchez" />
     <h2>Alexis Sanchez</h2>
-    <p>Fullstack Developer</p>
-    <p onClick={handleOnClick}>psialedev@gmail.com</p>
+    <p className={styles.role}>Fullstack Developer</p>
+    <p className={styles.email} onClick={handleOnClick}>psialedev@gmail.com</p>
     <div className={styles.socialMediaContainer}>
       <a  style={{height: '0', color: isMobile ? '#08088d' :'#6b46c1' }} href="https://www.linkedin.com/in/alexis-sanchez-dev/">
         <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
@@ -23,7 +23,7 @@ const Profile = ({ handleOnClick, handleLabelOnClick, labelTitle, isMobile }) =>
         <FontAwesomeIcon icon={["fab", "angellist"]} />
       </a>
     </div>
-    <label style={{display: 'flex', flexDirection: 'column', textAlign: 'center'}}>
+    <label style={{marginBottom: '15px', display: 'flex', flexDirection: 'column', textAlign: 'center'}}>
         <Switch
           onChange={handleLabelOnClick}
           offColor="#44337a" 
