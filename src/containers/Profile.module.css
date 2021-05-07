@@ -14,12 +14,28 @@
 }
 
 .mainContainer > H2 {
+  font-size: 1.875rem;
   color: var(--grey);
 }
 
+.role {
+  font-size: 1.5rem;
+}
+
+.email {
+  font-size: 1.25rem;
+  color: var(--grey);
+}
+
+.mainContainer > h2,
+.role,
+.email {
+  margin-bottom: 10px;
+}
+
 .mainContainer > img {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     margin: 1.5rem;
 }
@@ -32,8 +48,9 @@
 }
 
 .socialMediaContainer {
+  padding-top: 25px;
   width: 100%;
-  height: 30%;
+  height: 25%;
   display: flex;
   justify-content: space-evenly;
   font-size: 2.25rem;

@@ -21,7 +21,7 @@ const projects = {
         desktop: onstockDesktop,
         mobile: onstockMobile,
       },
-      details: "some details here",
+      details: "The user can create, see and update the number of raw materials on his business, see the raw material with the lowest amount on stock and see the list of all the raw materials.",
       technologies: [
         {
           title: "Fullstack",
@@ -47,7 +47,7 @@ const projects = {
         desktop: beerDesktop,
         mobile: beerMobile,
       },
-      details: "some Details",
+      details: "The user can see and filter through a list of Beers, click on one of the elements and go to a detailed product page.",
       technologies: [        {
         title: "React & Redux",
       },
@@ -71,7 +71,7 @@ const projects = {
         desktop: tictactoeDesktop,
         mobile: tictactoeMobile,
       },
-      details: "some details",
+      details: "The user can create 2 players, select their names, choose a character, and play the game!",
       technologies: [
         {
           title: "Vanilla JS",
@@ -94,7 +94,7 @@ const projects = {
         desktop: privateDesktop,
         mobile: privateMobile,
       },
-      details: "some details",
+      details: "The user can create and attend events, invite other friends to their events and see pending events.",
       technologies: [{
         title: "Ruby On Rails",
       },
@@ -117,7 +117,7 @@ const projects = {
       images: {
         desktop: rpgDesktop,
       },
-      details: "some details",
+      details: "Our Hero (Regular Guy) enjoyed occultism and satanic rites, one day by mistake he invoked The Ancients, who now spread their terror throughout LittleCuteTown; your heroic task is to defeat them all, before all its inhabitants fall into an abyss of despair.",
       technologies: [{title: "JavaScript"}, {title: "Phaser 3"}, {title: "Tilemaps"}],
       urls: {
         demo: "https://psiale.github.io/rpg-game/",
@@ -130,7 +130,7 @@ const projects = {
         desktop: phoneoffDesktop,
         mobile: phoneoffMobile,
       },
-      details: "some details",
+      details: "The user can manually track the use of his cellphone, create groups with images, create records with and without a group relation and see all the records associated to a group.",
       technologies: [{
         title: "Ruby On Rails",
       },
@@ -157,7 +157,7 @@ const projects = {
       images: {
         desktop: bmiGif,
       },
-      details: "some details",
+      details: "The user can get his BMI result with a custom description and share the results with his friends.",
       technologies: [{title: 'Custom Theme'}, {title: 'Routing'}, {title: 'Screenshot / Share option'} ],
       urls: {
         
@@ -170,7 +170,7 @@ const projects = {
       images: {
       desktop: cryptoGif,
     },
-    details: "some details",
+    details: "The user can select from several countries currencies and see the cost of 3 of the most popular cryptocurrencies",
     technologies: [{title: 'Flutter'}, {title: 'iOs/Android'}, {title: 'API Fetching'}],
     urls: {
       repository: "https://github.com/Psiale/bitcoinTickerFlutter/tree/develop/BitcoinTicker",
@@ -182,7 +182,7 @@ const projects = {
       images: {
         desktop: climaGif,
       },
-      details: "some details",
+      details: "The user can see the current weather information for his location.",
       technologies: [{title: 'API Fetching'}, {title: 'iOS / Android permissions'}, {title: 'Loading Animation'} ],
       urls: {
         
