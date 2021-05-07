@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
 
+@media (max-width: 768px) {
+    .mainContainer {
+        flex-direction: column;
+    }
+    .mainContainer > div {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
 * {
     font-family: 'Nanum Gothic', sans-serif;
     margin: 0;
