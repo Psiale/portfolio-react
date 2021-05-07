@@ -24,6 +24,13 @@
 
 .email {
   font-size: 1.25rem;
+  color: var(--grey);
+}
+
+.mainContainer > h2,
+.role,
+.email {
+  margin-bottom: 10px;
 }
 
 .mainContainer > img {
