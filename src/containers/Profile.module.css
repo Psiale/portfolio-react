@@ -1,0 +1,66 @@
+@import '../colors.css';
+
+
+.mainContainer {
+    width: 40%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.mainContainer > H2 {
+  font-size: 1.875rem;
+  color: var(--grey);
+}
+
+.role {
+  font-size: 1.5rem;
+}
+
+.email {
+  font-size: 1.25rem;
+  color: var(--grey);
+}
+
+.mainContainer > h2,
+.role,
+.email {
+  margin-bottom: 10px;
+}
+
+.mainContainer > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 1.5rem;
+}
+
+.labelContainer {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.socialMediaContainer {
+  padding-top: 25px;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2.25rem;
+}
+
+@media (max-width: 767px) {
+  .mainContainer {
+    position: initial;
+    top: unset;
+    left: unset;
+  }
+}
