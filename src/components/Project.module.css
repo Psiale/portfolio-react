@@ -1,5 +1,6 @@
 @import '../colors.css';
 
+
 .projectContainer {
   width: 100%;
   height: 100%;
@@ -8,6 +9,7 @@
 }
 
 .imagesContainer {
+  overflow-x: hidden;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -126,4 +128,10 @@
 .coolLinkMobile:hover::after {
   width: 100%;
   transition: width 0.5s;
+}
+
+@media (max-width: 767px) {
+  .technologiesContainer {
+    display: none
+  }
 }

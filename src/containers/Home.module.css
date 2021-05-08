@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+
     .mainContainer {
         flex-direction: column;
     }
